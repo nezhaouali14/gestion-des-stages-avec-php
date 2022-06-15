@@ -1,0 +1,47 @@
+div{
+    width: 60%;
+    height: 40vh;
+    background-color: grey;
+    margin: 35px 18%;
+    border-radius: 5px;
+}
+label{
+    font-size: 21px;
+    margin: 15px 37%;
+    text-align: center;
+}
+.l{
+    margin: 15px 41%;
+}
+input[type='password']{
+    width: 35%;
+    padding: 12px 15px;
+    margin: 10px 30%;
+    border: 1px solid rgb(0, 0, 0);
+    border-radius: 4px;
+}
+input[type='file']{
+    width: 25%;
+    margin: 10px 40%;
+    cursor: pointer;
+}
+input[type='submit']{
+    width: 20%;
+    height: 5vh;
+    border: 1px solid black;
+    margin: 20px 40%;
+    border-radius: 5px;
+    font-size: 20px;
+    cursor: pointer;
+    transition: background-color 0.3s ease-in-out,border 0.3s ease-in-out,color 0.3s ease-in-out;
+}
+input[type='submit']:hover{
+    background-color: black;
+    border: 1px solid white;
+    color: white;
+}
+.h{
+    color: rgb(196, 44, 44);
+    margin: 0 30%;
+    font-size: 20px;
+}

@@ -1,0 +1,39 @@
+
+.profil{
+    background-color: rgb(199, 185, 185);
+    width: 15%;
+    height: 27vh;
+    margin: 2% 40% 0 40%;
+    border-radius: 5%;
+}
+.profil img{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    margin: 3% 25% 0 25%;
+    align-items: center;
+}
+.profil h2{
+    font-size: 20px;
+    margin: 1% 30% 0 30%;
+    text-align: center;
+}
+ol{
+    margin: 0 30%;
+    padding: 25px 0;
+}
+ol li{
+    margin: 15px 0 15px;
+}
+ol li a{
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+    font-weight: 250;
+    transition: border-bottom 0.3s ease-in-out,color 0.3s ease-in-out;
+}
+ol li a:hover{
+    border-bottom: 0.4px solid black;
+    color: rgb(88, 80, 80);
+}
+

@@ -1,0 +1,46 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+form{
+    display: flex;
+    flex-direction: column;
+    background-color: grey;
+    width: 30%;
+    height: 30vh;
+    margin: 10% 30% 2% 35%;
+    border-radius: 5%;
+}
+form div{
+    margin: 3% 15% 0 15%;
+    font-size: 20px;
+    padding: 0 0 5vh;
+    display: flex;
+}
+label{
+    flex: 01.5;
+}
+input{
+    flex: 1;
+}
+input[type='submit']{
+    padding: 5px 2%;
+    width: 50%;
+    border: 1px solid black;
+    background-color: rgb(179, 200, 219);
+    margin: 0 25% 0 25%;
+    cursor: pointer;
+    padding: 10px 7%;
+    font-size: 20px;
+    transition: background-color 0.3s ease-in-out;
+}
+input[type='submit']:hover{
+    background-color: white;
+}
+form textarea{
+    width: 100%;
+    height: 10vh;
+    margin: 4px 0;
+    background-color: rgb(179, 200, 219);
+    padding: 2px 2%;
+}

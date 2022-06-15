@@ -1,0 +1,76 @@
+input[type=email],input[type=password]  {
+    width: 35%;
+    padding: 12px 15px;
+    margin: 8px 30%;
+    border: 1px solid rgb(0, 0, 0);
+    border-radius: 4px;
+  }
+  label{
+    margin: 0 45%;
+    font-size: 20px;
+  }
+  input[type=submit] {
+    width: 25%;
+    background-color: #224c99;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 36%;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 20px;
+    transition: background-color 0.4s ease-in-out;
+  }
+  
+  input[type=submit]:hover {
+    background-color: #45a049;
+  }
+  
+  div {
+    border-radius: 5px;
+    background-color: #9749d6;
+    padding: 20px;
+    width: 70%;
+    margin: 50px 11%;
+  }
+.err{
+    color: red;
+    font-size: 25px;
+}
+/*+++++++++ debut all page +++++++++*/
+.clickable{
+  cursor: pointer;
+}
+
+.margetop60{
+  margin-top: 60px;
+}
+
+
+body {
+  background-color: rgb(240, 238, 238);
+  font-size: 16px;
+}
+h1{
+  font-size: 40px;
+  color: #2980b9;
+}
+
+/*+++++++++ fin all page +++++++++*/
+
+
+
+/* +++++++++ debut login page ++++++++*/
+
+.login {
+  width: 300px;
+  margin: 100px auto;
+}
+
+.login h4 {
+  color: #888;
+}
+
+.login input {
+  margin-bottom: 10px;
+}
